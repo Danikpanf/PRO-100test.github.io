@@ -1,0 +1,23 @@
+# This repository is currently initialized in C:\Users\Danik (Windows profile).
+# To prevent accidentally committing personal files, we ignore everything by default
+# and only allow the actual project under Desktop/pro100.
+
+# Ignore everything in repo root
+*
+
+# But keep this ignore file
+!.gitignore
+
+# Allow the project folder
+!Desktop/
+!Desktop/pro100/
+!Desktop/pro100/**
+
+# Common junk inside the project
+Desktop/pro100/.vscode/
+Desktop/pro100/**/.DS_Store
+Desktop/pro100/**/Thumbs.db
+Desktop/pro100/**/*.log
+Desktop/pro100/**/node_modules/
+Desktop/pro100/**/dist/
+Desktop/pro100/**/.cache/
